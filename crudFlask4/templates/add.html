@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Animal</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<style>
+     Body{
+        background-color:turquoise;
+     }
+</style>
+<body>
+<h1 style="text-align:center;">Cadastrar novo animal</h1>
+<form action="/add" class="container" method="post">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" name="nome" id="nome" placeholder="nome">
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="cor" id="cor" placeholder="cor">
+        </div>
+    </div>
+    <br>
+    <div class="row col-xs-12">
+        <button type="submit" class="btn btn-block btn-sucess">Enviar</button>
+    </div>
+</form>
+</body>
+</html>
